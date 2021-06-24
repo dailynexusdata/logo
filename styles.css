@@ -1,0 +1,14 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+svg,
+svg:hover #spinny {
+  animation: spin 1s ease-in-out;
+  transform-origin: 50% 50%;
+}
+/* <?xml-stylesheet href="styles.css" type="text/css"?> */
