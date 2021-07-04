@@ -41,10 +41,10 @@ svg #spinny {
     stroke: #bbd387ff;
   }
 }
-#leftmain {
+#leftmain, #leftminor, #centerleft, #centerright, #center, #rightmain, #rightminor {
   animation: greenGlow 10s ease-in-out infinite;
 }
-#leftminor {
+/* #leftminor {
   animation: greenGlow 23s ease-in-out infinite;
 }
 #centerleft {
@@ -61,4 +61,4 @@ svg #spinny {
 }
 #rightminor {
   animation: greenGlow 23s ease-in-out infinite;
-}
+} */
